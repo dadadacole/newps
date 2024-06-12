@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <span class="navbar-brand ps-2">달디단 가계부</span>
+        <span class="navbar-brand ps-2">TodoList App</span>
         <button class="navbar-toggler" type="button" @click="isNavShow = !isNavShow">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,6 +17,9 @@
                 </li>
                 <li class="nav-item">
                     <router-link class="nav-link" to="/Listview">회원가입/로그인</router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link class="nav-link" to="/Challenge">무지출 챌린지</router-link>
                 </li>
             </ul>
         </div>
