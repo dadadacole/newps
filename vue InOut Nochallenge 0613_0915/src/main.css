@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: saddlebrown;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.todo-done {
+  text-decoration: line-through;
+}
+.container {
+  padding: 10px 10px 10px 10px;
+}
+.panel-borderless {
+  border: 0;
+  box-shadow: none;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.navHome:hover {
+  background-color: saddlebrown;
+}
+
+.navCardRecommendation:hover {
+  background-color: saddlebrown;
+}
+.navInOut:hover {
+  background-color: saddlebrown;
+}
+.navListView:hover {
+  background-color: saddlebrown;
+}
+.navChallenge:hover {
+  background-color: saddlebrown;
+}
+.navHome:active,
+.navHome:focus {
+  background-color: saddlebrown;
+  outline: none;
+}
+.navCardRecommendation:active,
+.navCardRecommendation:focus {
+  background-color: saddlebrown;
+  outline: none;
+}
+.navInOut:active,
+.navInOut:focus {
+  background-color: saddlebrown;
+  outline: none;
+}
+.navListView:active,
+.navListView:focus {
+  background-color: saddlebrown;
+  outline: none;
+}
+.navChallenge:active,
+.navChallenge:focus {
+  background-color: saddlebrown;
+  outline: none;
+}
