@@ -1,0 +1,17 @@
+package Ch03.sec03;
+
+import java.sql.SQLOutput;
+
+public class AccuracyExample2 {
+    public static void main(String[] args) {
+        int apple = 1;
+        int totalPieces = apple * 10;
+        int number = 7;
+
+
+//        정확한 계산을 위해서는 정수 연산으로 변경
+        int result = totalPieces - number;
+        System.out.println("10조각에서 남은 조각:" + result);
+        System.out.println("사과 1개에서 남은 양:" +result/10.0);
+    }
+}

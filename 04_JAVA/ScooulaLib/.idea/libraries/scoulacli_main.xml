@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scoulacli.main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/scoulacli_main_jar/scoulacli.main.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

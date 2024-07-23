@@ -1,0 +1,6 @@
+rootProject.name = 'TodoApp'
+include ':ScoulaCli'
+project(':ScoulaCli').projectDir =new File('C:\\KB_FullStack\\04_java\\ScoulaLib\\scoulacli')
+include 'build:generated:sources:annotationProcessor:java:main:TodoApp2'
+findProject(':build:generated:sources:annotationProcessor:java:main:TodoApp2')?.name = 'TodoApp2'
+
